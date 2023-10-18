@@ -4,14 +4,19 @@
 // - lastName
 // - 'favorite food'
 // - bestFriend (object with the same 3 properties as above)
-const Marissa = `firstName`;
-firstName.lastName = "Butto";
-firstName.favoriteFood = "tacos";
+const marissaButto = {
+  firstName: `Marissa`,
+  lastName: `Butto`,
+  favoriteFood: `tacos`,
 
-const bestFriend = `bestFriend`;
-const { firstName, lasName, favoritefoo } = bestFriend;
+  bestFriend: {
+    bestFriendFirstName: `Chris`,
+    bestFriendLastName: `Hellmich`,
+    bestFriendFavoriteFood: `Lasagna`,
+  },
+};
 
-console.log(Marissa.bestFriend[favoritefoo.food]);
+console.log([marissaButto.bestFriendFavoriteFood]);
 
 // 2. console.log best friend's firstName and your favorite food
 
@@ -19,12 +24,21 @@ console.log(Marissa.bestFriend[favoritefoo.food]);
 // -O-
 // -XO
 // X-X
+const ticTacToe = [
+  [`-`, `0`, `-`],
+  [`-`, `X`, `0`],
+  [`X`, `0`, `X`],
+];
 
 // 4. After the array is created, 'O' claims the top right square.
 // Update that value.
 
-// 5. Log the grid to the console.
+ticTacToe[0][2] = `0`;
 
+// 5. Log the grid to the console.
+console.log(ticTacToe[0]);
+console.log(ticTacToe[1]);
+console.log(ticTacToe[2]);
 // 6. You are given an email as string myEmail, make sure it is in correct email format.
 // Should be 1 or more characters, then @ sign, then 1 or more characters, then dot, then one or more characters - no whitespace
 // i.e. foo@bar.baz
