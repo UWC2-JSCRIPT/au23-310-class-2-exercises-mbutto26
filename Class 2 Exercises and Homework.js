@@ -16,7 +16,7 @@ const marissaButto = {
   },
 };
 
-console.log([marissaButto.bestFriendFavoriteFood]);
+console.log([[marissaButto].bestFriendFavoriteFood]);
 
 // 2. console.log best friend's firstName and your favorite food
 
