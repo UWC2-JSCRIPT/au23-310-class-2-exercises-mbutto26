@@ -16,10 +16,10 @@ const marissaButto = {
   },
 };
 
-console.log([[marissaButto].bestFriendFavoriteFood]);
-
 // 2. console.log best friend's firstName and your favorite food
-
+console.log(
+  marissaButto[bestFriend[bestFriendFirstName.bestFriendFavoriteFood]]
+);
 // 3. Create an array to represent this tic-tac-toe board
 // -O-
 // -XO
